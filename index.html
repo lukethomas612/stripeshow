@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stripeshow · Heated Driving Range</title>
+  <meta name="description" content="A heated, lit, walk-in driving range coming to Utah County, about 10 minutes from UVU. $15 for 125 balls. Practice with real balls all winter.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230d1117'/><circle cx='16' cy='16' r='7' fill='%23ffb547'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;800&family=Archivo+Black&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="logo"><span class="logo-dot"></span>Stripeshow</a>
+      <nav class="nav-links">
+        <a href="#pricing">Pricing</a>
+        <a href="#survey">Survey</a>
+        <a href="#signup" class="btn btn-small">Get updates</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- Hero: the pitch -->
+    <section class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Coming to Utah County · For UVU &amp; BYU golfers</p>
+        <h1>Keep striping it<br>all winter.</h1>
+        <p class="lede">
+          Stripeshow is a heated, lit, walk-in driving range about 10 minutes from UVU.
+          Real balls, real ball flight, <strong>$15 a bucket</strong>, no membership required.
+        </p>
+        <div class="hero-ctas">
+          <a href="#signup" class="btn">Get opening-day deals</a>
+          <a href="#survey" class="btn btn-ghost">Take the 1-minute survey</a>
+        </div>
+      </div>
+      <div class="turf" aria-hidden="true"></div>
+    </section>
+
+    <!-- The problem -->
+    <section class="section">
+      <div class="wrap">
+        <h2>Winter practice in Utah County is broken.</h2>
+        <p class="section-lede">From November to March, snow, cold, and early dark shut down outdoor ranges. Right now your options are:</p>
+        <div class="cards three">
+          <article class="card">
+            <p class="card-stat">30–45 min</p>
+            <h3>Drive to Salt Lake County</h3>
+            <p>The nearest heated ranges are in South Jordan and South Salt Lake. On a school night, nobody's making that drive.</p>
+          </article>
+          <article class="card">
+            <p class="card-stat">$49/hr</p>
+            <h3>Pay for a simulator</h3>
+            <p>Simulators are useful, but it's not the same as watching a real ball fly.</p>
+          </article>
+          <article class="card">
+            <p class="card-stat">Party mode</p>
+            <h3>Go to Topgolf</h3>
+            <p>Fun with friends, but it's built around games, food, and hourly bay rentals, not practice.</p>
+          </article>
+        </div>
+        <p class="callout">Or you stop until spring and lose everything you gained over the summer. <strong>Stripeshow fixes that.</strong></p>
+      </div>
+    </section>
+
+    <!-- What you get -->
+    <section class="section section-alt">
+      <div class="wrap">
+        <h2>What you get</h2>
+        <ul class="features">
+          <li><span class="feat-num">20</span><div><h3>Heated, covered bays</h3><p>Two levels, overhead heaters in every bay, and lights over the whole outfield. Warm on the coldest nights.</p></div></li>
+          <li><span class="feat-num">125</span><div><h3>Titleist practice balls</h3><p>A full bucket from a self-serve dispenser. Hit off premium mats that get replaced on schedule.</p></div></li>
+          <li><span class="feat-num">0</span><div><h3>Bookings needed</h3><p>Walk in, grab a bucket, take any open bay. Bring your roommates on a Thursday night.</p></div></li>
+          <li><span class="feat-num">10</span><div><h3>Minutes from campus</h3><p>We're targeting a site about 10 minutes from UVU, so you don't have to drive to Salt Lake County.</p></div></li>
+        </ul>
+        <p class="fine">Also planned: lessons, a drinks fridge, and summer leagues.</p>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="section" id="pricing">
+      <div class="wrap">
+        <h2>Simple pricing</h2>
+        <p class="section-lede">Same price as Mulligan's large bucket, 30–45 minutes closer.</p>
+        <div class="cards two">
+          <article class="card price-card">
+            <h3>Walk-in bucket</h3>
+            <p class="price">$15</p>
+            <p class="price-unit">125 balls</p>
+            <ul class="checks">
+              <li>No membership, no booking</li>
+              <li>Pay by card at the dispenser</li>
+              <li>Any open heated bay</li>
+            </ul>
+          </article>
+          <article class="card price-card featured">
+            <p class="badge">For regulars</p>
+            <h3>Unlimited</h3>
+            <p class="price">$80</p>
+            <p class="price-unit">per month</p>
+            <ul class="checks">
+              <li>Unlimited buckets</li>
+              <li>Check in at the front desk</li>
+              <li>Pays for itself by your 6th visit</li>
+            </ul>
+          </article>
+        </div>
+        <p class="fine">Planned pricing. Final prices will be confirmed before opening.</p>
+      </div>
+    </section>
+
+    <!-- Survey: short version of PRD Appendix A -->
+    <section class="section section-alt" id="survey">
+      <div class="wrap narrow">
+        <h2>Help us build it</h2>
+        <p class="section-lede">Six quick questions. Your answers decide whether, where, and how big we build.</p>
+
+        <!-- Replace YOUR_FORM_ID with your Formspree form ID (see README.md) -->
+        <form class="form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="hidden" name="_subject" value="Stripeshow survey response">
+          <input type="hidden" name="form" value="survey">
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+          <fieldset>
+            <legend>1. Which school do you attend?</legend>
+            <div class="choices">
+              <label><input type="radio" name="school" value="UVU" required> UVU</label>
+              <label><input type="radio" name="school" value="BYU"> BYU</label>
+              <label><input type="radio" name="school" value="Other"> Other</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>2. How often do you golf or practice in the summer?</legend>
+            <div class="choices">
+              <label><input type="radio" name="summer_frequency" value="Never" required> Never</label>
+              <label><input type="radio" name="summer_frequency" value="1-2 times a month"> 1–2× a month</label>
+              <label><input type="radio" name="summer_frequency" value="Weekly"> Weekly</label>
+              <label><input type="radio" name="summer_frequency" value="Several times a week"> Several times a week</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>3. What stops you from practicing in winter? <span class="hint">Pick any</span></legend>
+            <div class="choices">
+              <label><input type="checkbox" name="winter_blockers" value="Cold"> Cold</label>
+              <label><input type="checkbox" name="winter_blockers" value="Distance"> Distance</label>
+              <label><input type="checkbox" name="winter_blockers" value="Cost"> Cost</label>
+              <label><input type="checkbox" name="winter_blockers" value="Time"> Time</label>
+              <label><input type="checkbox" name="winter_blockers" value="Other"> Other</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>4. If a heated range opened 10 minutes from campus, how many times a month would you go in winter?</legend>
+            <div class="choices">
+              <label><input type="radio" name="winter_visits" value="0" required> 0</label>
+              <label><input type="radio" name="winter_visits" value="1"> 1</label>
+              <label><input type="radio" name="winter_visits" value="2-3"> 2–3</label>
+              <label><input type="radio" name="winter_visits" value="4-6"> 4–6</label>
+              <label><input type="radio" name="winter_visits" value="7+"> 7+</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>5. Would you pay $15 for a 125-ball bucket?</legend>
+            <div class="choices">
+              <label><input type="radio" name="bucket_15" value="Yes" required> Yes</label>
+              <label><input type="radio" name="bucket_15" value="Maybe"> Maybe</label>
+              <label><input type="radio" name="bucket_15" value="No"> No</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>6. Would you consider an $80/month unlimited membership?</legend>
+            <div class="choices">
+              <label><input type="radio" name="membership_80" value="Yes" required> Yes</label>
+              <label><input type="radio" name="membership_80" value="Maybe"> Maybe</label>
+              <label><input type="radio" name="membership_80" value="No"> No</label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn">Submit survey</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Email signup -->
+    <section class="section signup" id="signup">
+      <div class="wrap narrow center">
+        <h2>Be first through the doors.</h2>
+        <p class="section-lede">Get one email when we open, plus our opening-day bucket and membership deals. No spam.</p>
+        <!-- Same Formspree form ID as the survey; the hidden "form" field tells them apart -->
+        <form class="signup-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <input type="hidden" name="_subject" value="Stripeshow email signup">
+          <input type="hidden" name="form" value="signup">
+          <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <label for="email" class="sr-only">Email address</label>
+          <input id="email" type="email" name="email" placeholder="you@uvu.edu" required>
+          <button type="submit" class="btn">Notify me</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span class="logo"><span class="logo-dot"></span>Stripeshow</span>
+      <p>A heated driving range in the works for Utah County. Not open yet.<br>A project by Luke Thomas and Addie Anderson.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
