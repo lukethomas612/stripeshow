@@ -8,6 +8,8 @@ A one-page site for Stripeshow, a heated, walk-in driving range planned for Utah
 | --- | --- |
 | `index.html` | The whole page: pitch, the winter-practice problem, features, pricing, a 6-question student survey (short version of PRD Appendix A), and an email signup. |
 | `style.css` | All styling. Brand colors live in the `:root` block at the top. |
+| `hero.svg` | The night-range scene behind the top section (golf-ball moon, floodlights, glowing ball flights). |
+| `logo.svg` | The gold golf-ball logo, used in the top bar, footer, and browser tab. |
 
 ## Setting up the forms (one-time)
 
